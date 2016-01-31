@@ -1,0 +1,5 @@
+
+Interface name: Int#3
+Number of output interfaces: 3
+Estimated delay : 225 ms
+Assigned Ip addresses: 172.16.08.0,172.16.08.1,172.16.08.2,

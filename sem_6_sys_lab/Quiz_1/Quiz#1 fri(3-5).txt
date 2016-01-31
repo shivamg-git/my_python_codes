@@ -1,0 +1,85 @@
+
+10B17CI673: SYSTEM AND NETWORK PROGRAMMING LAB
+Quiz#1
+
+Fri (3-5)
+Duration: 30 min	
+Max Mark: 10
+
+-------------------------------------------------------------------------------------
+
+ Consider a network switch details as shown in diagram.
+
+---------------------------------------------------------------------------------------------------	
+<<interface name>> | <<available number of output interfaces>> |  <<subnet IP address>> |<<Delay per interface>>
+	Int#1 	   | 		5			       | 	172.16.68.0     |  50ms
+	Int#2	   | 		2			       |	172.16.78.0     |  25ms
+	Int#3	   |		10			       |	172.16.08.0     |  75ms 	
+
+Note: subnet IP address has format x.x.x.0 where x is an integer between 1-255
+---------------------------------------------------------------------------------------------------
+
+
+
+<<<<<<Even Numbered Machines>>>
+
+Q1) Write a python program to perform the following
+
+(a) to store the switch details using appropriate data structure (do not use socket programming)
+(b) To take input as interface name , required number of ouput interfaces.
+(c) If  (required number of output interfaces) <= (available number of output interface); else print error.
+(d) Assign "consequtive" IP address for each interface with format x.x.x.Y,where "X.x.x" is called subnet address and Y is an integer number between 1- 255, and then 
+(e)Ouput the result as interface name, number of requested output interfaces with their corresponding assigned IP address
+
+
+Eg:-
+
+Input
+------
+Interface name: In#1
+Number of output interfaces: 3
+
+Output
+-------
+Interface name: Int#1
+Number of requested output interfaces: 3
+
+Assigned Ip addresses: 172.16.68.1,172.16.68.2,172.16.68.3
+
+
+Q2) Use GUI for diplaying output of above program and store the result in "resultA.txt"
+
+----------------------------------------------------------------------------------------------------------------
+
+<<<<<<Odd Numbered Machines>>>
+
+
+
+Q1) Write a python program to perform the following
+
+(a) To store the switch details using appropriate data structure (do not use socket programming)
+(b) To take input as interface name , required number of ouput interfaces, total required delay <=300
+(c) If  (required total delay) <= 300 and output interfaces available then
+(d) Assign "consequtive" IP address for each interface with format x.x.x.Y,where "X.x.x" is called subnet address and Y is an integer number between 1- 255, and then 
+(e) Ouput the result as interface name, number of requested output interfaces with their corresponding assigned IP address
+
+
+Eg:-
+
+Input
+------
+Interface name: In#1
+Number of output interfaces: 3
+Total required dealy <= 300ms
+
+Output
+-------
+Interface name: Int#1
+Number of requested output interfaces: 3
+Estimated delay:150 ms
+Assigned Ip addresses: 172.16.68.1,172.16.68.2,172.16.68.3
+
+
+
+Q2) Use GUI for displaying  output of above program and store the result in "resultB.txt"
+-----------------------------------------------------------------------------------------------

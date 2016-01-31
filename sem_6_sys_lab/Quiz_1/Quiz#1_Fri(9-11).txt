@@ -1,0 +1,62 @@
+
+10B17CI673: SYSTEM AND NETWORK PROGRAMMING LAB
+Quiz#1
+
+Fri (9-11)
+Duration: 30 min	
+Max Mark: 10
+
+-------------------------------------------------------------------------------------
+
+<<<<<<Even Numbered Machines>>>
+
+1) Consider the routing table given below.
+
+
+Routing Table
+-------------
+source IP address   Portnumber  Destination IP address
+172.16.68.1		1032	172.17.68.1
+172.16.68.2		2043	172.17.68.2
+172.16.68.2		3000	172.17.68.4
+172.16.68.3		5000	172.17.68.2
+172.16.68.3		7000	172.17.68.3
+
+Write a python program 
+
+(a)To take input as destination IP address and port number
+(b)if the destination address is 172.17.68.2 and the port number is greater than 3000, then
+(c)Output the port number and destination IP address that matches the above condition.
+
+
+
+
+2) Use GUI for displaying the output of the above program and store the result in "resultA.txt"
+
+
+------------------------------------------------------------------------------------------
+
+<<<<<<odd Numbered Machines>>>
+
+
+1) Consider the routing table given below.
+
+
+Routing Table
+-------------
+source IP address   Portnumber  Destination IP address 		Delay (ms)
+172.16.68.1		1032	172.17.68.1			100
+172.16.68.2		2043	172.17.68.2			200
+172.16.68.2		3000	172.17.68.4			300
+172.16.68.3		5000	172.17.68.2			400
+172.16.68.3		7000	172.17.68.3			50
+
+Write a python program 
+
+(a) to take input as source IP address, port number and delay
+(b) if delay is less than 300ms and If the port number is greater than 3000, then
+(c) output the port number and destination IP address 
+
+
+2) Use GUI for displaying the output of the above program and store the result in "resultB.txt"
+--------------------------------------------------------------------------------------------------------
